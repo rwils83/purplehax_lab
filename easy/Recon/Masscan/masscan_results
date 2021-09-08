@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- masscan v1.0 scan -->
+<nmaprun scanner="masscan" start="1622568302" version="1.0-BETA"  xmloutputversion="1.03">
+<scaninfo type="syn" protocol="tcp" />
+<host endtime="1622568302"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="5357"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622568351"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622568389"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="5040"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622568457"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="3216"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622568698"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="49675"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622568707"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="3217"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622568780"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="31104"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622568825"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="3215"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622568850"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="3213"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622568858"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="5426"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622568898"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="49665"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622568951"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622568964"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="54236"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622569123"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="49683"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622569252"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="49666"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622569316"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="31105"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622569319"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="49774"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622569399"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="54235"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622569417"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="902"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622569436"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="912"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622569479"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="49667"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622569549"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="49671"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622569567"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="7680"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622569611"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="1337"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622569637"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="49664"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622569700"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="13339"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622569747"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="6789"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<host endtime="1622569825"><address addr="10.0.2.2" addrtype="ipv4"/><ports><port protocol="tcp" portid="57621"><state state="open" reason="syn-ack" reason_ttl="255"/></port></ports></host>
+<runstats>
+<finished time="1622569976" timestr="2021-06-01 13:52:56" elapsed="1693" />
+<hosts up="28" down="0" total="28" />
+</runstats>
+</nmaprun>

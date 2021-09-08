@@ -1,0 +1,53 @@
+# Nmap 7.91 scan initiated Tue Jun  1 13:30:51 2021 as: nmap -A -oN ./10.0.2.28_results 10.0.2.28
+Nmap scan report for 10.0.2.28
+Host is up (0.00023s latency).
+Not shown: 992 closed ports
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp         pyftpdlib 1.5.6
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|  Connected to: 10.0.2.28:21
+|  Waiting for username.
+|  TYPE: ASCII; STRUcture: File; MODE: Stream
+|  Data connection closed.
+|_End of status.
+22/tcp   open  ssh         OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 5b:a7:37:fd:55:6c:f8:ea:03:f5:10:bc:94:32:07:18 (RSA)
+|   256 ab:da:6a:6f:97:3f:b2:70:3e:6c:2b:4b:0c:b7:f6:4c (ECDSA)
+|_  256 ae:29:d4:e3:46:a1:b1:52:27:83:8f:8f:b0:c4:36:d1 (ED25519)
+25/tcp   open  smtp        Exim smtpd
+| smtp-commands: solstice Hello nmap.scanme.org [10.0.2.40], SIZE 52428800, 8BITMIME, PIPELINING, CHUNKING, PRDR, HELP, 
+|_ Commands supported: AUTH HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP 
+80/tcp   open  http        Apache httpd 2.4.38 ((Debian))
+|_http-server-header: Apache/2.4.38 (Debian)
+|_http-title: Site doesn't have a title (text/html).
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 4.9.5-Debian (workgroup: WORKGROUP)
+2121/tcp open  ftp         pyftpdlib 1.5.6
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_drws------   2 www-data www-data     4096 Jun 18  2020 pub
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|  Connected to: 10.0.2.28:2121
+|  Waiting for username.
+|  TYPE: ASCII; STRUcture: File; MODE: Stream
+|  Data connection closed.
+|_End of status.
+3128/tcp open  squid-http?
+Service Info: Host: SOLSTICE; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: 4h00m02s
+|_nbstat: NetBIOS name: SOLSTICE, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.9.5-Debian)
+|   NetBIOS computer name: SOLSTICE\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-06-01T13:33:45-04:00
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jun  1 13:35:02 2021 -- 1 IP address (1 host up) scanned in 251.33 seconds

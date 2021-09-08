@@ -1,0 +1,21 @@
+# Nmap 7.91 scan initiated Tue Jun  1 13:35:53 2021 as: nmap -A -oN ./10.0.2.34_results 10.0.2.34
+Nmap scan report for 10.0.2.34
+Host is up (0.00022s latency).
+Not shown: 997 closed ports
+PORT      STATE SERVICE VERSION
+22/tcp    open  ssh     OpenSSH 7.4p1 Debian 10 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 d0:6a:10:e0:fb:63:22:be:09:96:0b:71:6a:60:ad:1a (RSA)
+|   256 ac:2c:11:1e:e2:d6:26:ea:58:c4:3e:2d:3e:1e:dd:96 (ECDSA)
+|_  256 13:b3:db:c5:af:62:c2:b1:60:7d:2f:48:ef:c3:13:fc (ED25519)
+80/tcp    open  http    nginx 1.10.3
+|_http-server-header: nginx/1.10.3
+|_http-title: Welcome to nginx!
+31337/tcp open  http    Werkzeug httpd 0.11.15 (Python 3.5.3)
+| http-robots.txt: 3 disallowed entries 
+|_/.bashrc /.profile /taxes
+|_http-title: 404 Not Found
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jun  1 13:35:59 2021 -- 1 IP address (1 host up) scanned in 6.59 seconds

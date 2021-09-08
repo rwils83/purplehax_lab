@@ -1,0 +1,34 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.0.2.26:8000
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   301
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2021/06/01 14:42:27 Starting gobuster in directory enumeration mode
+===============================================================
+/http%3A%2F%2Fwww     (Status: 404) [Size: 273]
+/http%3A%2F%2Fyoutube (Status: 404) [Size: 273]
+/http%3A%2F%2Fblogs   (Status: 404) [Size: 273]
+/http%3A%2F%2Fblog    (Status: 404) [Size: 273]
+/**http%3A%2F%2Fwww   (Status: 404) [Size: 273]
+/server-status        (Status: 403) [Size: 276]
+/27079%5Fclassicpeople2%2Ejpg (Status: 302) [Size: 0] [--> /error/404/]
+/tiki%2Epng           (Status: 302) [Size: 0] [--> /error/404/]        
+/How_to%2e%2e%2e      (Status: 302) [Size: 0] [--> /error/404/]        
+/Wanted%2e%2e%2e      (Status: 302) [Size: 0] [--> /error/404/]        
+/squishdot_rss10%2Etxt (Status: 302) [Size: 0] [--> /error/404/]       
+/b33p%2Ehtml          (Status: 302) [Size: 0] [--> /error/404/]        
+/http%3A%2F%2Fcommunity (Status: 404) [Size: 273]                      
+/http%3A%2F%2Fradar   (Status: 404) [Size: 273]                        
+/http%3A%2F%2Fjeremiahgrossman (Status: 404) [Size: 273]               
+/http%3A%2F%2Fweblog  (Status: 404) [Size: 273]                        
+/http%3A%2F%2Fswik    (Status: 404) [Size: 273]                        
+===============================================================
+2021/06/01 14:45:29 Finished
+===============================================================
